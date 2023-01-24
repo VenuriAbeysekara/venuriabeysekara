@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" integrity="sha512-NtU/Act0MEcVPyqC153eyoq9L+UHkd0s22FjIaKByyA6KtZPrkm/O5c5xzaia4pyCfReCS634HyQ7tJwKNxC/g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   
+    <style ="text/css">
+
+        .text{
+        font-family: Verdana;
+        font-size: 150%;
+        color:white;
+        display: flex;
+        justify-content:flex-start;
+        margin-bottom: 5%;
+        }
+
+        .margin{
+        padding-left:20%;
+        padding-top: 10%;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: center; 
+            background-color: black;
+        }
+        
+        #navbar a {
+            padding: 0 5%;
+            color:#51F418;
+            font-size: 100%;
+            background-color: black;
+        }
+
+        .left-column{
+            padding-left:25%;
+            padding-top: 50%;
+        }
+
+        .h11{
+            color: white; 
+            font-family:"Times New Roman"; 
+            font-style: normal; 
+            font-weight: normal; 
+            text-decoration: none; 
+            font-size: 1000%; 
+            text-align:center;
+            margin:0pt; 
+        }
+        h4{
+            color: white; 
+            font-family:"Times New Roman"; 
+            font-style: normal; 
+            font-weight: normal; 
+            text-decoration: none; 
+            font-size: 300%; 
+            margin:0pt;
+            text-align:center;
+        }
+
+        .p1{
+            color: white; 
+            font-family:"Times New Roman"; 
+            font-style: normal; 
+            font-weight: normal; 
+            text-decoration: none; 
+            font-size: 150%; 
+            margin:0pt;
+            text-align:center; 
+        }
+
+        .profile-img{
+            border-radius:50%;
+        }
+
+        .avatar {
+            border-radius:70%;
+        }
+
+        .bullets{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        /*.subcontainer {
+            border: 1px white solid; 
+        }*/
+
+        .maincontainer{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .duplicate{
+            display: flex;
+            flex-direction: row;
+        }
+
+        #about{
+            width: 40%;
+        }
+
+        #work{
+            width:80%;
+        }
+        #education{
+            width: 70%;
+        }
+
+        #aandc{
+            width: 70%;
+        }
+        @media (max-width: 800px) { 
+            .maincontainer{flex-direction: column-reverse;} 
+            .subcontainer{width: 100%;} 
+            .duplicate{flex-direction: column;} 
+            #about{width:100%;} 
+            #avatar{width: 100%;}
+        }
+    </style>
+    <title>Venuri</title>
+</head>
+<body style="background-color:black;">
+    <nav id="navbar" role="navigation" aria-label="main navigation" style="margin-left:30%;" >
+        <div class="navbar-brand">
+      
+          <a role="button" class="navbar" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#about" class="navbar-item" >
+            About
+            </a>
+      
+            <a href="#work" class="navbar-item">
+              Work
+            </a>
+
+            <a href="#education" class="navbar-item">
+                Education
+            </a>
+
+            <a href="#aandc" class="navbar-item">
+                Awards and certificates
+            </a>
+
+      
+          </div>
+        </div>
+    </nav>
+    
+    <!--homepage start-->
+    
+    
+        <div class="maincontainer" >
+            <div class="subcontainer; margin" style="width: 60%;" >
+                <h1 class="h11">Hello!</h1>
+                <h4>I’m Venuri Abeysekara</h4>
+                <p class="p1" style="margin-bottom: 15%;">Web Designer | Undergraduate</p>
+            </div>
+            <div class="subcontainer" style="width:40%; margin-top: 10%; margin-bottom: 10%;">
+                <img class="profile-img" src="C:\Users\user\Desktop\Bulma\20221107_212837.jpg" width="70%" />
+            </div>
+        </div>
+
+        <!--homepage end-->
+
+        <hr color="white" style="margin-top:5%; margin-bottom:5%;">
+
+        <!--About start-->
+
+        <div id="navbar">
+            <a href="#about" >About</a>
+    
+        </div>
+    
+        <div>
+            <div style="width: 100%; text-align: center; margin-top: 5%; padding-left: 2%; padding-right: 2%;" class="subcontainer">
+                <div style="font-size: 150%; font-family: Verdana; color: white;">
+                <p>Motivated and hardworking ungraduated at University Of Colombo. Diploma holder in management accounting. Active member of the IEEE student branch of University of Colombo School of Computing and the Rotaract Club of University of Colombo School of Computing. CIMA student who is  following up studies on the Management Level.
+                </p>
+                </div>
+            </div>
+
+            <div style="width: 100%; display: flex;justify-content: flex-end;">
+                <div class="subcontainer" style="width:50%; margin-top: 5%; margin-bottom: 1%;">
+                    <img style="margin-left:12%"class="avatar" src="C:\Users\user\Desktop\Bulma\1.jpg" width="50%" />
+                </div>
+
+                <div class="duplicate" style="width: 100%; display: flex;justify-content: flex-start;">
+                    <div id="about" style="margin-bottom: 5%; margin-top: 10%;">
+                        <div style="font-size: 150%; font-family: Verdana; color: white;">
+                            <P><div style="color:#51F418">Name:</div><div style="color:white"> Venuri Abeyseakara</div> </P>
+                            <P><div style="color:#51F418">Address:</div><div style="color:white"> Colombo, Sri Lanka</div> </P>
+                            <P><div style="color:#51F418">Age:</div><div style="color:white"> 20 y/o </div></P>
+        
+                        </div>
+                    </div>
+    
+                    <div id="about" style="margin-bottom: 5%; margin-top: 10%;">
+                        <div style="font-size: 150%; font-family: Verdana; color: white;">
+                            <P><div style="color:#51F418">University:</div><div style="color:white"> University of Colombo</div></P>
+                            <P><div style="color:#51F418">E-mail:</div><div style="color:white"> Venuri@yahoo.com</div></P>
+                            <P><div style="color:#51F418">Tel.no:</div><div style="color:white"> +94 713 428 854</div> </P>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--About end-->
+
+        <hr color="white" style="margin-top:5%; margin-bottom:5%;">
+
+        <!--work start-->
+
+        <div id="navbar" >
+            <a href="#work">Work</a>
+        </div>
+
+        <div>
+
+            <div style="width: 100%; text-align: center; margin-top: 5%;" class="subcontainer"> 
+                <div id="work" class="text"style="margin-left:20%">
+                    <div style="font-weight: bold;">
+                        <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-right:3%; ">Student Web Developer</p>
+                     
+                    <div style="font-weight: normal;">
+                        <p>Ink Corporation</p>
+                        <p>Created, designed and edited web pages based on customer specifications.</p>
+                        <p>Interpret the client database.Maintain organizational website.</p>
+                        <p>(2021 - Present)</p>
+                    </div> 
+                    </div>   
+                </div>
+
+            </div>
+
+            <div class="maincontainer" style="width: 100%; display: flex;justify-content: flex-end;"> 
+                <div class="subcontainer" style="width:40%; margin-left:5%; margin-bottom:1%;">
+                    <img  style="margin-left:12%" class="avatar" src="C:\Users\user\Desktop\Bulma\2.jpg" width="50%" />
+                </div>
+
+                <div id="work" class="text" style="text-align: center; display: flex;justify-content: flex-start; ; margin-left: 5%; margin-right: 5%;">
+                        
+                    <div style="font-weight: bold;">
+                    <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-right:3%; margin-top: 5%;">Freelancer Web Developer</p>
+                    
+                    <div style="font-weight: normal;">
+                    <p>Designed Outdoor graphics for local partnerships.</P>
+                    <P>Created a webapp for a teachable machine.</p>
+                    <P>(2018 - 2021)</P>
+                    </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <!--Work end-->
+
+        <hr color="white" style="margin-top:5%; margin-bottom:5%;">
+
+        <!--Education start-->
+
+        <div id="navbar">
+            <a href="#education">Education</a>
+        </div>
+
+        <div>
+            <div style="width: 100%; text-align: center; margin-top: 5%;" class="subcontainer"> 
+                <div id="education" class="text" style="margin-left:20%">
+                    <div style="font-weight: bold;">
+                        <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" >Bachelor of Science in Information Systems</p>
+                    
+                    <div style="font-weight: normal;">
+                        <P>University Of Colombo, Sri Lanka</P>
+                        <p>(June 2022 to Present)</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div style="width: 100%; text-align: center; margin-top: 5%;" class="subcontainer"> 
+                    <div id="education" class="text" style="margin-left:30%">
+                        <div style="font-weight: bold;">
+                            <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-right:3%;"> Secondary Education</p>
+                        
+                        <div style="font-weight: normal;">
+                            <P>Passed General Certificate of Education Advanced Level Exam</p>
+                            <P>with 1 A pass and 2 C passes.</P>
+                            <p>(2018 to 2020)</p>
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
+
+            <div class="maincontainer" style="width: 100%; display: flex;justify-content: flex-end;"> 
+                <div class="subcontainer" style="width:40%; margin-left:3%; margin-bottom:1%;">
+                    <img  style="margin-left:3%" class="avatar" src="C:\Users\user\Desktop\Bulma\4.jpg" width="70%" />
+                </div>
+
+                <div id="education" class="text" style="margin-left:6%">
+                    <div style="font-weight: bold;">
+                        <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-right:3%; margin-top: 5%;">Primary Education</p>
+                    
+                    <div style="font-weight: normal;">
+                        <p>Passed General Certificate of Education Ordinary Level Exam</p> 
+                        <p>with 8 A passes and 1C pass.</P>
+                        <p>(2016 to 2017)</p>
+                    </div>
+                </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <!--Education end-->
+
+        <hr color="white" style="margin-top:5%; margin-bottom:5%;">
+
+        <!--Awards and certifications start-->
+
+        <div id="navbar" >
+            <a href="#aandc">Awards and Certifications</a>
+        </div>
+
+        <div>
+            <div style="width: 100%; text-align: center; margin-top: 5%;" class="subcontainer"> 
+                <div id="aandc" class="text" style="margin-left:30%">
+                    <div style="font-weight: bold;">
+                        <p style=" margin-bottom: 2%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-right:3%; ">Diploma in Management Accounting</p>
+                    
+                    <div style="font-weight: normal;">
+                        <P>Chartered Institute of Management Accountants</P>
+                        <p>(CIMA)</p>
+                        <p>(Nov 2020 to May 2022)</p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="maincontainer" style="width: 100%; display: flex;justify-content: flex-end;"> 
+                <div class="subcontainer" style="width:40%; margin-left:3%; margin-bottom:1%;">
+                    <img  style="margin-left:8%" class="avatar" src="C:\Users\user\Desktop\Bulma\3.jpg" width="60%" />
+                </div>
+
+                <div id="aandc" class="text" style="margin-left:5%;  text-align: center;">
+                    <div style="font-weight: bold;">
+                        <p style=" margin-bottom: 3%;"><img class="bullets" src="C:\Users\user\Desktop\Bulma\download.png" style="margin-top: 5%;">Diploma in English Language</p>
+                    
+                    <div style="font-weight: normal;">
+                        <p>British-way English Academy</P>
+                        <P>Honor Pass</p>
+                        <P>(Jan 2018 to April 2018)</P>
+                    </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <!--Awards and certifications end-->
+</body>
+
+</html>
